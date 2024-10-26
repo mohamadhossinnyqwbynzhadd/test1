@@ -6,7 +6,7 @@ tuple_list = eval(input_data)
 sorted_list = []
 
 while tuple_list:
-    min_tuple = tuple_list[o]
+    min_tuple = tuple_list
     for t in tuple_list:
         if t[1] < min_tuple[1]:
             min_tuple = t
